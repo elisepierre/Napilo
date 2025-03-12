@@ -49,3 +49,71 @@ section {
 #contact a:hover {
     text-decoration: underline;
 }
+
+/* Styles pour le pied de page */
+footer {
+  background-color: #58a1d1; /* Couleur de fond du pied de page */
+  color: #fff; /* Couleur du texte */
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px; /* Espace supérieur */
+  position: fixed; /* Fixe le pied de page en bas */
+  width: 100vw; /* Largeur à 100% */
+  bottom: 0; /* Aligne en bas */
+  left: 0; /* Aligne à gauche */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur/hauteur */
+}
+
+footer ul {
+  text-align: center; /* Centre le contenu de la liste */
+  padding: 0; /* Enlève le remplissage */
+}
+
+footer ul li {
+  margin: 10px 0; /* Espace entre les éléments de la liste */
+}
+
+footer ul a {
+  display: inline-block; /* Affiche en ligne */
+  margin-right: 20px; /* Espace à droite */
+  text-decoration: none; /* Enlève le soulignement */
+  color: inherit; /* Couleur héritée */
+}
+
+footer ul a:last-child {
+  margin-right: 0; /* Supprime l'espace pour le dernier élément */
+}
+
+footer a {
+  color: #fff; /* Couleur du texte */
+  font-weight: bold; /* Gras */
+  font-size: 18px; /* Taille de police */
+  text-decoration: none; /* Enlève le soulignement */
+  display: inline-block; /* Affiche en ligne */
+  padding: 10px; /* Padding autour du lien */
+  border: 2px solid #ff6b6b; /* Bordure du lien */
+  border-radius: 8px; /* Coins arrondis */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Effets de transition */
+  display: flex;
+  align-items: center; /* Aligne verticalement */
+  justify-content: center; /* Centre horizontalement */
+  transition: transform 0.3s ease; /* Effet de transformation */
+}
+
+footer a:hover {
+  background-color: #ff6b6b; /* Changement de couleur au survol */
+  color: #fff; /* Couleur du texte au survol */
+  transform: scale(1.1); /* Effet de zoom au survol */
+}
+
+footer p {
+  margin-top: 20px; /* Espace supérieur */
+}
+
+/* Styles pour l'icône Instagram */
+.instagram-icon {
+  width: 24px; /* Largeur de l'icône */
+  height: 24px; /* Hauteur de l'icône */
+  margin-right: 10px; /* Espace à droite */
+  vertical-align: middle; /* Aligne verticalement au milieu */
+}
