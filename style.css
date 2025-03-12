@@ -52,12 +52,11 @@ section {
 
 /* Styles pour le pied de page */
 footer {
-  background-color: #58a1d1; /* Couleur de fond du pied de page */
+  background-color: #f8b400; /* Couleur de fond du pied de page */
   color: #fff; /* Couleur du texte */
   text-align: center;
   padding: 10px;
   margin-top: 50px; /* Espace supérieur */
-  position: fixed; /* Fixe le pied de page en bas */
   width: 100vw; /* Largeur à 100% */
   bottom: 0; /* Aligne en bas */
   left: 0; /* Aligne à gauche */
